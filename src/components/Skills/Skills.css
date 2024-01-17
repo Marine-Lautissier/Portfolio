@@ -1,0 +1,58 @@
+.skills {
+    color: black;
+    padding: 3% 3% 3% 3%;
+}
+
+.skills h2 {
+    color: black;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.skills h3 {
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.skills-elements  {
+    display: flex;
+    justify-content: space-around;
+}
+
+.front-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.end-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.others-elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.skillsTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.javascript {
+    background-color: #F6DC3D;
+    padding: 1.2rem 0.4rem 0.4rem 1.2rem;
+}

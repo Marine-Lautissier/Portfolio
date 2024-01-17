@@ -1,0 +1,10 @@
+.projects {
+    color: black;
+    padding: 3% 3% 3% 3%;
+    background-color: rgb(247, 212, 229, 0.4);
+}
+
+.projects h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}

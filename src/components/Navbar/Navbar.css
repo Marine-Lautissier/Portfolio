@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    /* border-bottom: 2px solid rgb(247, 212, 229, 0.4); */
+}
+
+.navbar h2 {
+    margin-right: 30em;
+    color: black;
+}
+
+.navbar .nav-links ul {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .nav-links ul li {
+    margin: 0px 25px;
+}
+
+.nav-links .button_nav {
+    color: black;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 0.5rem;
+}
+
+.button_nav:hover {
+    font-weight: bold;
+    color: rgb(247, 133, 190);
+}

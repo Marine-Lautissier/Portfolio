@@ -1,0 +1,27 @@
+header {
+    color: black;
+    height: 50vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.introduction-section {
+    min-width: 1200px;
+    margin: auto;
+    min-height: 100vh;
+}
+
+.introduction-section h2 {
+    margin: 0 3% 3% 3%;
+    padding-top: 3%;
+}
+
+.align-center {
+    display: block;
+    margin-left: 3%;
+    padding-top: 12%;
+}
+
+.Policy-React {
+    color: darkcyan;
+}

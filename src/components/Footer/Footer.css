@@ -1,0 +1,62 @@
+.contact-me {
+    color: black;
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+.foot-links {
+    width: 100%;
+    padding: 50px 30px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-element {
+    float: left;
+    text-align: center;
+    width: 20%;
+    margin: 20px 20px;
+    margin-bottom: 5%;
+}
+
+
+.button_foot {
+    color: black;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 0.5rem;
+}
+
+.button_foot:hover {
+    font-weight: bold;
+    color: rgb(247, 133, 190);
+}
+
+
+.socialIcons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialIcons a {
+    font-size: 40px;
+    color: rgb(247, 133, 190);
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.socialIcons a i {
+    opacity: 0.9;
+}
+
+.socialIcons a:hover {
+    font-weight: bold;
+    color: rgb(114, 114, 114);
+}
+
+
+.rights {
+    text-align: center;
+}
