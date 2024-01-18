@@ -1,15 +1,15 @@
-.skills {
+#skills {
     color: black;
     padding: 3% 3% 3% 3%;
 }
 
-.skills h2 {
+#skills h2 {
     color: black;
     text-align: center;
     padding-bottom: 30px;
 }
 
-.skills h3 {
+#skills h3 {
     color: black;
     margin-bottom: 1rem;
 }

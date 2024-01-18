@@ -5,7 +5,7 @@ import './Footer.css'
 function Footer() {
     return (
         <footer>
-        <h2 className="contact-me">Me contacter</h2>
+        <h2 id="contact-me">Me contacter</h2>
             <div className="foot-links">
                 <ul>
                     <div className="footer-element">
