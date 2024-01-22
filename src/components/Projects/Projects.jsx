@@ -11,7 +11,7 @@ function Projects() {
                 <article className='accomplished'>
                     <h4>Portfolio</h4>
                     <img src={image} alt="image-portfolio" />
-                    <button>Cliquez-ici pour accéder au code de mon Porfolio sur Github :D !</button>
+                    <button><a href="https://github.com/Marine-Lautissier/Portfolio.git">Cliquez-ici pour accéder au code de mon Porfolio sur Github :D !</a></button>
                 </article>
             <h3>En cours</h3>
                 <article className='in-progress'>
