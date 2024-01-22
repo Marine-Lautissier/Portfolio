@@ -6,5 +6,71 @@
 
 #projects h2 {
     text-align: center;
-    padding-bottom: 30px;
+}
+
+#projects h3 {
+    text-align: center;
+    margin-top: 3em;
+}
+
+/* Accomplished */
+
+.accomplished {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px grey ;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 250px;
+    height: auto;
+}
+
+.accomplished h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.accomplished img {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    max-width: 90%;
+}
+
+.accomplished img:hover {
+    margin-top: 1em;
+    max-width: 100%;
+    box-shadow: 5px 5px rgb(54, 54, 54);
+}
+
+.accomplished button {
+    margin-top: 2em;
+    background-color: rgb(236, 232, 232);
+    border: 0.2px solid black;
+}
+
+.accomplished button:hover {
+    margin-top: 2em;
+    color: rgb(114, 44, 245);
+    background-color: rgb(236, 232, 232);
+    border: 0.2px solid black;
+}
+
+/* In-progress */
+
+.in-progress {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px grey ;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 250px;
+    height: auto;
+}
+
+.in-progress p {
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
 }
