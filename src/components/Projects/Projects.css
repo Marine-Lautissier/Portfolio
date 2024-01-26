@@ -13,7 +13,8 @@
     margin-top: 3em;
 }
 
-/* Accomplished */
+
+/* Projets réalisés */
 
 .accomplished {
     border: 1px solid black;
@@ -23,6 +24,9 @@
     margin: 2rem auto;
     max-width: 250px;
     height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .accomplished h4 {
@@ -33,12 +37,10 @@
 .accomplished img {
     display: flex;
     justify-content: center;
-    margin-top: 1em;
     max-width: 90%;
 }
 
 .accomplished img:hover {
-    margin-top: 1em;
     max-width: 100%;
     box-shadow: 5px 5px rgb(54, 54, 54);
 }
@@ -56,7 +58,8 @@
     border: 0.2px solid black;
 }
 
-/* In-progress */
+
+/* Projets en cours */
 
 .in-progress {
     border: 1px solid black;
@@ -71,6 +74,6 @@
 .in-progress p {
     margin-top: 1.5em;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     font-weight: bold;
 }

@@ -1,27 +1,114 @@
-header {
-    color: black;
-    height: 50vh;
-    width: 100vw;
-    background-size: cover;
-}
-
 .introduction-section {
-    min-width: 1200px;
-    margin: auto;
-    min-height: 100vh;
+    color: black;
+    position: relative;
 }
 
 .introduction-section h2 {
-    margin: 0 3% 3% 3%;
-    padding-top: 3%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.introduction-section img {
+    width: 100%;
+    height: auto;
 }
 
 .align-center {
-    display: block;
-    margin-left: 3%;
-    padding-top: 12%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    z-index: 1;
+    font-size: 1.2em;
 }
 
 .Policy-React {
     color: darkcyan;
+}
+
+
+/* Medias queries pour le texte et le titre du Header */
+
+/* Media query pour les écrans allant jusqu'à 965px */
+@media only screen and (max-width: 965px) {
+    .align-center {
+        top: 40%;
+        left: 50%;
+        transform: translate(-40%, -50%);
+        font-size: 1em;
+    }
+
+    .introduction-section h2 {
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
+
+/* Media query pour les écrans allant jusqu'à 768px */
+@media only screen and (max-width: 768px) {
+    .align-center {
+        top: 40%;
+        left: 50%;
+        transform: translate(-40%, -50%);
+        font-size: 0.9em;
+    }
+
+    .introduction-section h2 {
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 1em;
+    }
+}
+
+/* Media query pour les écrans allant jusqu'à 457px */
+@media only screen and (max-width: 457px) {
+    .align-center {
+        top: 40%;
+        left: 48%;
+        transform: translate(-40%, -48%);
+        font-size: 0.8em;
+    }
+
+    .introduction-section h2 {
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 0.9em;
+        top: -4%
+    }
+}
+
+/* Media query pour les écrans allant jusqu'à 395px */
+@media only screen and (max-width: 395px) {
+    .align-center {
+        top: 40%;
+        left: 48%;
+        transform: translate(-40%, -48%);
+        font-size: 0.7em;
+    }
+
+    .introduction-section h2 {
+        left: 42%;
+        transform: translate(-32%);
+        font-size: 0.9em;
+        top: -6%;
+    }
+}
+
+/* Media query pour les écrans allant jusqu'à 325px */
+@media only screen and (max-width: 325px) {
+    .align-center {
+        top: 38%;
+        left: 46%;
+        transform: translate(-38%, -46%);
+        font-size: 0.6em;
+        max-width: 400px;
+    }
+
+    .introduction-section h2 {
+        left: 42%;
+        transform: translate(-32%);
+        font-size: 0.7em;
+        top: -6%;
+    }
 }

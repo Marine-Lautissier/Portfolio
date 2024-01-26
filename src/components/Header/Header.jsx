@@ -1,5 +1,5 @@
 import './Header.css'
-import image from "../../assets/growtika-unsplash.jpg"
+import image from "../../assets/pexels-cottonbro-studio-5082554.jpg"
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 function Header() {
@@ -11,12 +11,13 @@ function Header() {
     });
 
     return (
-        <header className="introduction-section" style={{ backgroundImage: `url(${image})` }}>
+        <header className="introduction-section">
             <h2> {text} <Cursor /> </h2>
+            <img src={image} alt="image-header"/>
             <div className="align-center">
-            <p>Je me prénomme Marine Lautissier,</p>
-            <p>Développeuse web / web mobile </p>
-            <p>Full Stack - spécialisée en <strong className='Policy-React'>React</strong>.</p>
+                <p>Je me prénomme Marine Lautissier,</p>
+                <p>Développeuse web / web mobile </p>
+                <p>Full Stack - spécialisée en <strong className='Policy-React'>React</strong>.</p>
             </div>
         </header>
     )
