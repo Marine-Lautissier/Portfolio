@@ -45,7 +45,7 @@ function Navbar() {
             <p><Menu/></p>
         </button>
         )}
-        <nav className={toggleNav ? "show-nav nav-links" : "navbar"}>
+        <nav className={toggleNav ? "show-nav nav-links open" : "navbar"}>
             <h2>Marine Lautissier</h2>
             <div className="nav-links">
                 <ul>

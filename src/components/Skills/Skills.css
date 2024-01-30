@@ -85,3 +85,14 @@
     transform: scale(1.5);
     margin-bottom: 1.2rem;
 }
+
+
+/* Media queries */
+
+/* Media query pour les écrans allant jusqu'à 399px */
+@media screen and (max-width: 399px) {
+    .skills-elements  {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -36,6 +36,12 @@
     left: 93%;
 }
 
+
+/* Style pour la navbar ouverte (hauteur plus grande) */
+.show-nav.nav-links.open {
+    height: 17rem;
+}
+
 /* Media query pour les écrans allant jusqu'à 977px */
 @media screen and (max-width: 977px) {
     .nav-links {
@@ -52,19 +58,27 @@
         visibility: visible;
         position: relative;
         text-align: right;
+        top: 6rem;
     }
 
     .show-nav h2 {
         color: black;
         visibility: visible;
         position: absolute;
-        left: 5%;
+        left: 4%;
+        top: 1.8rem;
     }
 
     .navbar h2 {
         color: black;
         position: absolute;
-        padding-bottom: 6rem;
+    }
+
+    .button_icon {
+        left: auto; 
+        position: absolute;
+        top: 1.5em; 
+        right: 1.5em; 
     }
 }
 
@@ -76,5 +90,48 @@
 
     .show-nav .nav-links {
         visibility: hidden;
+    }
+}
+
+
+/* Media query pour les écrans allant jusqu'à 325px */
+@media screen and (max-width: 325px) {
+    .nav-links {
+        visibility: hidden;
+    }
+
+    .show-nav .nav-links ul li {
+        padding: 0.5rem;
+    }
+
+    .show-nav .nav-links {
+        display: flex;
+        flex-direction: column;
+        visibility: visible;
+        position: relative;
+        text-align: right;
+        top: 6rem;
+    }
+
+    .show-nav h2 {
+        color: black;
+        visibility: visible;
+        position: absolute;
+        left: 4%;
+        top: 1.8rem;
+        width: 50%;
+    }
+
+    .navbar h2 {
+        color: black;
+        position: absolute;
+        width: 50%;
+    }
+
+    .button_icon {
+        left: auto; 
+        position: absolute;
+        top: 1.5em; 
+        right: 1.5em; 
     }
 }
