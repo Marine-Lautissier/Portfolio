@@ -6,7 +6,6 @@
 .introduction-section h2 {
     position: absolute;
     left: 50%;
-    transform: translate(-50%);
 }
 
 .introduction-section img {
@@ -16,11 +15,13 @@
 
 .align-center {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
-    transform: translate(-40%, -50%);
-    z-index: 1;
     font-size: 1.2em;
+}
+
+.align-center p {
+    font-weight: bold;
 }
 
 .Policy-React {
@@ -30,85 +31,70 @@
 
 /* Medias queries pour le texte et le titre du Header */
 
-/* Media query pour les écrans allant jusqu'à 965px */
-@media only screen and (max-width: 965px) {
-    .align-center {
-        top: 40%;
-        left: 50%;
-        transform: translate(-40%, -50%);
-        font-size: 1em;
-    }
-
-    .introduction-section h2 {
-        left: 50%;
-        transform: translate(-50%);
-    }
-}
-
 /* Media query pour les écrans allant jusqu'à 768px */
 @media only screen and (max-width: 768px) {
     .align-center {
-        top: 40%;
-        left: 50%;
-        transform: translate(-40%, -50%);
-        font-size: 0.9em;
+        left: 45%;
+        font-size: 1em;
     }
 
+
     .introduction-section h2 {
-        left: 50%;
-        transform: translate(-50%);
-        font-size: 1em;
+        left: 45%;
     }
 }
 
-/* Media query pour les écrans allant jusqu'à 457px */
-@media only screen and (max-width: 457px) {
+/* Media query pour les écrans allant jusqu'à 568px */
+@media only screen and (max-width: 568px) {
     .align-center {
-        top: 40%;
-        left: 48%;
-        transform: translate(-40%, -48%);
-        font-size: 0.8em;
+        top: 45%;
+        left: 35%;
+        font-size: 1em;
     }
 
     .introduction-section h2 {
-        left: 50%;
-        transform: translate(-50%);
-        font-size: 0.9em;
-        top: -4%
+        left: 35%;
+    }
+}
+
+/* Media query pour les écrans allant jusqu'à 495px */
+@media only screen and (max-width: 495px) {
+    .align-center {
+        top: 40%;
+        left: 30%;
+        font-size: 1em;
+    }
+
+    .introduction-section h2 {
+        left: 30%;
     }
 }
 
 /* Media query pour les écrans allant jusqu'à 395px */
 @media only screen and (max-width: 395px) {
     .align-center {
-        top: 40%;
-        left: 48%;
-        transform: translate(-40%, -48%);
-        font-size: 0.7em;
+        top: 30%;
+        left: 15%;
+        font-size: 1em;
     }
 
     .introduction-section h2 {
-        left: 42%;
-        transform: translate(-32%);
-        font-size: 0.9em;
-        top: -6%;
+        left: 15%;
+        font-size: 1.2em;
     }
 }
 
 /* Media query pour les écrans allant jusqu'à 325px */
 @media only screen and (max-width: 325px) {
     .align-center {
-        top: 38%;
-        left: 46%;
-        transform: translate(-38%, -46%);
-        font-size: 0.6em;
-        max-width: 400px;
+        top: 30%;
+        left: 10%;
+        font-size: 0.9em;
     }
 
     .introduction-section h2 {
-        left: 42%;
-        transform: translate(-32%);
-        font-size: 0.7em;
-        top: -6%;
+        top: -10%;
+        left: 10%;
+        font-size: 1.2em;
     }
 }

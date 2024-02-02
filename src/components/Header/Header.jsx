@@ -1,5 +1,5 @@
 import './Header.css'
-import image from "../../assets/pexels-cottonbro-studio-5082554.jpg"
+import image from "../../assets/office-desk.jpg"
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 function Header() {
