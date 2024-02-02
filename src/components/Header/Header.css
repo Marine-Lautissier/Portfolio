@@ -70,8 +70,8 @@
     }
 }
 
-/* Media query pour les écrans allant jusqu'à 395px */
-@media only screen and (max-width: 395px) {
+/* Media query pour les écrans allant jusqu'à 405px */
+@media only screen and (max-width: 405px) {
     .align-center {
         top: 30%;
         left: 15%;

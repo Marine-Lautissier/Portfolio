@@ -22,6 +22,8 @@
 
 
 .button_foot {
+    display: flex;
+    justify-content: center;
     color: black;
     font-weight: bold;
     border-radius: 3px;
