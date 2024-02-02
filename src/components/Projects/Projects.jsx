@@ -1,20 +1,23 @@
 import { Tool, Code, GitCommit, GitPullRequest } from 'react-feather';
 
-import './Projects.css'
-import image from "../../assets/praveen-thirumurugan-unsplash.jpg"
+import './Projects.css';
 
-function Projects() {
+function Projects({listProjectsAccomplished}) {
     return (
         <section id="projects">
             <h2>Mes projets</h2>
             <h3>Réalisés</h3>
-                <article className='accomplished'>
-                    <h4>Portfolio</h4>
-                    <img src={image} alt="image-portfolio" />
-                    <button><a href="https://github.com/Marine-Lautissier/Portfolio.git">Cliquez-ici pour accéder au code de mon Porfolio sur Github :D !</a></button>
+            <div className="article-projects-accomplished">
+            {listProjectsAccomplished.map((item) => (
+                <article key={item.id} className="accomplished">
+                    <h4>{item.title}</h4>
+                    <img src={item.image} alt="" />
+                    <button><a href={item.link}>{item.buttonLink}</a></button>
                 </article>
+            ))}
+            </div>
             <h3>En cours</h3>
-                <article className='in-progress'>
+                <article className="in-progress">
                     <p><Tool/><Code/><GitCommit/><GitPullRequest/></p>
                     <p>...</p>
                 </article>

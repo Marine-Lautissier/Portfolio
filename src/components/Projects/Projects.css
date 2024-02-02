@@ -16,13 +16,18 @@
 
 /* Projets réalisés */
 
+.article-projects-accomplished {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .accomplished {
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 5px 5px grey ;
     padding: 2rem;
     margin: 2rem auto;
-    max-width: 250px;
+    max-width: 350px;
     height: auto;
     display: flex;
     align-items: center;
@@ -41,7 +46,6 @@
 }
 
 .accomplished img:hover {
-    max-width: 100%;
     box-shadow: 5px 5px rgb(54, 54, 54);
 }
 
@@ -56,6 +60,17 @@
     color: rgb(114, 44, 245);
     background-color: rgb(236, 232, 232);
     border: 0.2px solid black;
+}
+
+
+/* Media queries pour projets réalisés */
+
+/* Media query pour les écrans allant jusqu'à 850px */
+@media only screen and (max-width: 850px) {
+    .article-projects-accomplished {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
