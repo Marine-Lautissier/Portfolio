@@ -86,9 +86,5 @@ Cette façon de structurer mon code permet, lors de changement de données, de m
     - contient des liens externes permettant d'accéder à mon mail professionnel, à mon (futur) profil Linkedin et à mon compte Github.  
 
 - **Adaptabilité et Réactivité :**
-    - mon Portfolio sera adapté à toutes les tailles d'écran.
-        - pour ce faire, j'ai commencé à mettre en place des media queries et définis les tailles des fonctionnalités.
-
-##  
-
-> Mon Portfolio est toujours en cours de réalisation et n'est pas encore déployé, merci de votre compréhension. 😇 
+    - mon Portfolio est adapté à toutes les tailles d'écran.
+        - pour ce faire, j'ai mis en place des media queries et j'ai défini les tailles des fonctionnalités.
