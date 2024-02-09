@@ -44,7 +44,16 @@
         background-color: white;
     }
 
+    .button_icon {
+        color: black;
+        background-color: white;
+    }
+
     .show-nav.nav-links.open {
+        color: black;
+        background-color: white;
+    }
+    .show-nav .nav-links {
         color: black;
         background-color: white;
     }
