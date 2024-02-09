@@ -44,7 +44,7 @@
         background-color: white;
     }
 
-    .show-nav {
+    .show-nav.nav-links.open {
         color: black;
         background-color: white;
     }
