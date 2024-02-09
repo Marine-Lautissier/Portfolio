@@ -49,6 +49,11 @@
         background-color: white;
     }
 
+    .show-nav h2 {
+        color: black;
+        background-color: white;
+    }
+
     .show-nav.nav-links.open {
         color: black;
         background-color: white;
