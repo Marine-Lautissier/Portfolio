@@ -1,6 +1,8 @@
-import { GitHub, Linkedin, Mail } from 'react-feather';
+// Importation de React depuis React :
+import React from 'react';
 
-import './Footer.css'
+import './Footer.css';
+import { GitHub, Linkedin, Mail } from 'react-feather';
 
 function Footer() {
     return (

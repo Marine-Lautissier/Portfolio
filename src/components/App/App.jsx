@@ -1,3 +1,6 @@
+// Importation de React depuis React :
+import React from 'react';
+
 // Importation de tous les composants enfants du composant App.jsx :
 import Navbar from '../Navbar/Navbar';
 import Header from '../Header/Header';

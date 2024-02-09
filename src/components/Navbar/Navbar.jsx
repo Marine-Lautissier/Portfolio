@@ -1,4 +1,7 @@
-import './Navbar.css'
+// Importation de React depuis React :
+import React from 'react';
+
+import './Navbar.css';
 import { Menu } from 'react-feather';
 import { useEffect, useState } from 'react';
 

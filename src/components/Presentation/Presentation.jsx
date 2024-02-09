@@ -1,4 +1,7 @@
-import './Presentation.css'
+// Importation de React depuis React :
+import React from 'react';
+
+import './Presentation.css';
 
 function Presentation() {
     return (

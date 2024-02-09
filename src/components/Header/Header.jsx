@@ -1,5 +1,8 @@
-import './Header.css'
-import image from "../../assets/office-desk.jpg"
+// Importation de React depuis React :
+import React from 'react';
+
+import './Header.css';
+import image from "../../assets/office-desk.jpg";
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 function Header() {

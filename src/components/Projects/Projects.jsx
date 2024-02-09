@@ -1,6 +1,8 @@
-import { Tool, Code, GitCommit, GitPullRequest } from 'react-feather';
+// Importation de React depuis React :
+import React from 'react';
 
 import './Projects.css';
+import { Tool, Code, GitCommit, GitPullRequest } from 'react-feather';
 
 function Projects({listProjectsAccomplished}) {
     return (

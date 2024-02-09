@@ -1,4 +1,7 @@
-import './Skills.css'
+// Importation de React depuis React :
+import React from 'react';
+
+import './Skills.css';
 
 function Skills() {
     return (
