@@ -18,9 +18,9 @@ function Footer() {
                     </div>
 
                     <div className="footer-element">
-                        <li><a className= "button_foot" href="#">Linkedin</a></li>
+                        <li><a className= "button_foot" href="https://linkedin.com/in/marine-l-5808092b3">Linkedin</a></li>
                         <div className="socialIcons">
-                        <a href=""><Linkedin /></a>
+                        <a href="https://linkedin.com/in/marine-l-5808092b3"><Linkedin /></a>
                         </div>
                     </div>
 
