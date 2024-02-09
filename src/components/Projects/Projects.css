@@ -1,7 +1,7 @@
 #projects {
     color: black;
     padding: 3% 3% 3% 3%;
-    background-color: rgb(247, 212, 229, 0.4);
+    background-color: #FFEFF3;
 }
 
 #projects h2 {
@@ -98,6 +98,6 @@
 @media (prefers-color-scheme: dark) {
     #projects {
         color: black;
-        background-color: rgb(247, 212, 229, 0.4);
+        background-color: #FFEFF3;
     }
 }

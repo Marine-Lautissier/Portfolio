@@ -3,7 +3,7 @@
     text-align: center;
     padding: 5% 3% 5% 3%;
     margin-top: -3%;
-    background-color: rgb(247, 212, 229, 0.4);
+    background-color: #FFEFF3;
 }
 
 #presentation h2 {
@@ -21,6 +21,6 @@
 @media (prefers-color-scheme: dark) {
     #presentation {
         color: black;
-        background-color: rgb(247, 212, 229, 0.4);
+        background-color: #FFEFF3;
     }
 }

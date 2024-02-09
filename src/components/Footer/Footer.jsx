@@ -33,7 +33,7 @@ function Footer() {
                 </ul>
             </div>
         <p className="rights">© 2024 - Marine Lautissier - Tous droits réservés.</p>
-    </footer>
+        </footer>
     )
 }
 

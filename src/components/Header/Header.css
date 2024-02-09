@@ -5,6 +5,7 @@
 
 .introduction-section h2 {
     position: absolute;
+    top: 10%;
     left: 50%;
 }
 
@@ -25,7 +26,7 @@
 }
 
 .Policy-React {
-    color: darkcyan;
+    color: #14DAFE;
 }
 
 
