@@ -92,3 +92,12 @@
     justify-content: space-around;
     font-weight: bold;
 }
+
+
+/* Media query pour empêcher le thème sombre */
+@media (prefers-color-scheme: dark) {
+    #projects {
+        color: black;
+        background-color: rgb(247, 212, 229, 0.4);
+    }
+}

@@ -64,6 +64,29 @@
 }
 
 
+/* Media query pour empêcher le thème sombre */
+@media (prefers-color-scheme: dark) {
+    .footer {
+        color: black;
+        background-color: white;
+    }
+    
+    .button_foot {
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-weight: bold;
+        border-radius: 3px;
+        padding: 0.5rem;
+    }
+
+    .button_foot:hover {
+        font-weight: bold;
+        color: rgb(247, 133, 190);
+    }
+}
+
+
 /* Media query pour les écrans allant jusqu'à 399px */
 @media screen and (max-width: 399px) {
 

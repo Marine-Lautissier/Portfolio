@@ -37,6 +37,27 @@
 }
 
 
+/* Media query pour empêcher le thème sombre */
+@media (prefers-color-scheme: dark) {
+    .navbar {
+        color: black;
+        background-color: white;
+    }
+    
+    .nav-links .button_nav {
+        color: black;
+        font-weight: bold;
+        border-radius: 3px;
+        padding: 0.5rem;
+    }
+    
+    .button_nav:hover {
+        font-weight: bold;
+        color: rgb(247, 133, 190);
+    }
+}
+
+
 /* Style pour la navbar ouverte (hauteur plus grande) */
 .show-nav.nav-links.open {
     height: 17rem;
