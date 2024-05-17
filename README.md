@@ -83,7 +83,7 @@ Cette façon de structurer mon code permet, lors de changement de données, de m
     - contient la liste des projets réalisés & en cours.
 
 - **Section Footer :**
-    - contient des liens externes permettant d'accéder à mon mail professionnel, à mon (futur) profil Linkedin et à mon compte Github.  
+    - contient des liens externes permettant d'accéder à mon mail professionnel, à mon profil Linkedin et à mon compte Github.  
 
 - **Adaptabilité et Réactivité :**
     - mon Portfolio est adapté à toutes les tailles d'écran.
